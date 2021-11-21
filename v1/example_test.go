@@ -19,7 +19,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/orijtech/asana/v1"
+	"github.com/urmakgkg/asana/v1"
 )
 
 func Example_client_CreateTask() {

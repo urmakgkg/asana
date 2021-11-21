@@ -55,7 +55,7 @@ type Task struct {
 
 	Notes string `json:"notes,omitempty"`
 
-	Projects   []*Project `json:"projects,omitempty"`
+	Projects   []string `json:"projects,omitempty"`
 	ParentTask *Task      `json:"parent,omitempty"`
 
 	Workspace *NamedAndIDdEntity `json:"workspace,omitempty"`
